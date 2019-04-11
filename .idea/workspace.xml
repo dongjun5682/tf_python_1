@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05a5efbc-ace5-4270-a044-8695126cf605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/cctv_pop.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crime_in_Seoul.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/geo_simple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/police_position.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seoul_cctv/cctv_pop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seoul_cctv/crime_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seoul_cctv/crime_police.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seoul_cctv/crime_rate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/day-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/day-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seoul_cctv/pop.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,41 +30,25 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_police.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="31" selection-start-line="1" selection-end-line="33" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_rate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1701">
-              <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_map.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="97" column="38" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/seoul_cctv/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folium_test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_mining/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webcrawl/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -130,12 +107,17 @@
             <path>
               <item name="day-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-2" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="seoul_cctv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-2" type="462c0819:PsiDirectoryNode" />
-              <item name="seoul_cctv" type="462c0819:PsiDirectoryNode" />
+              <item name="text_mining" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-2" type="462c0819:PsiDirectoryNode" />
+              <item name="webcrawl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -177,6 +159,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.crime_map">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="day-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="crime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,24 +315,26 @@
       <workItem from="1554798939594" duration="1937000" />
       <workItem from="1554856371684" duration="5642000" />
       <workItem from="1554862817836" duration="5466000" />
-      <workItem from="1554868747946" duration="14517000" />
+      <workItem from="1554868747946" duration="15107000" />
+      <workItem from="1554943703965" duration="1187000" />
+      <workItem from="1554954275849" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47832000" />
+    <option name="totallyTimeSpent" value="49629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16773778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17159383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50064266" side_tool="true" weight="0.3243607" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -342,7 +348,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" sideWeight="0.4993573" visible="true" weight="0.14524421" />
+      <window_info anchor="right" id="Run" order="5" sideWeight="0.4993573" weight="0.14524421" />
+      <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="6" side_tool="true" weight="0.32969153" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,9 +395,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcrawl/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/webcrawl/naver_stock.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_police.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="31" selection-start-line="1" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/police_pos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -574,25 +568,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        <state relative-caret-position="651">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_map.py">
+    <entry file="file://$PROJECT_DIR$/seoul_cctv/crime_police.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="97" column="38" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="38" />
+        <state relative-caret-position="126">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folium_test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_mining/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrawl/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seoul_cctv/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
